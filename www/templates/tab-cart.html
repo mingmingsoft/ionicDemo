@@ -1,0 +1,136 @@
+<ion-view view-title="购物车">
+    <ion-content>
+        <!--<ion-list show-delete="data.showDelete">-->
+        <!--<ion-item class="item-checkbox item-thumbnail-left padding-left"-->
+        <!--ng-repeat="chat in chats"-->
+        <!--type="item-text-wrap">-->
+        <!--<label class="checkbox">-->
+        <!--<input type="checkbox">-->
+        <!--</label>-->
+        <!--<div class="item item-thumbnail-left" style="border: none; ">-->
+
+        <!--<img ng-src="{{chat.face}}">-->
+
+        <!--<h2>{{chat.name}}</h2>-->
+
+        <!--<p>{{chat.lastText}}</p>-->
+        <!--<ion-delete-button class="ion-minus-circled"-->
+        <!--ng-click="onItemDelete(item)">-->
+        <!--</ion-delete-button>-->
+        <!--</div>-->
+        <!--</ion-item>-->
+        <!--</ion-list>-->
+        <div class="list">
+            <div class="item item-icon-right">
+                <table class="cart_table" width="100%">
+                    <tr>
+                        <td rowspan="2" style="vertical-align: middle">
+                            <input type="checkbox">
+                        </td>
+                        <td rowspan="2" style="width:90px ">
+                            <img src="../img/qrCode.png" class="cart_img">
+                        </td>
+                        <td colspan="5">
+                            <p class="price_name">天普乐食Tender
+                                Plus澳洲120jfkdjfkjkfdjkkdjfkjkfdjkkdjfkjkfdjkkdjfkjkfdjkkdjfkjkfdjkkdjfkjkfdjkfjdfkjdkfjdkfj</p>
+                        </td>
+                        <td rowspan="2">
+                            <i class="icon ion-ios-trash-outline"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" class="price_p"><i class="ion-social-yen"></i>123456</td>
+                        <td colspan="2">
+                            <div class="conent_div">
+                                <input type="button" class="remove" value="-">
+                                <input type="text" class="num" value="1" readonly>
+                                <input type="button" class="add" value="+">
+                            </div>
+                        </td>
+                    </tr>
+
+                </table>
+            </div>
+
+            <div class="item item-icon-right">
+                <table class="cart_table" width="100%">
+                    <tr>
+                        <td rowspan="2" style="vertical-align: middle">
+                            <input type="checkbox">
+                        </td>
+                        <td rowspan="2" style="width:90px ">
+                            <div class="cart_img assertive">
+                                <img src="../img/qrCode.png">
+
+                                <p>无法送达</p>
+                            </div>
+
+                        </td>
+                        <td colspan="5">
+                            <p class="price_name">天普乐食Tender
+                                Plus澳洲120jfkdjfkjkfdjkkdjfkjkfdjkkdjfkjkfdjkkdjfkjkfdjkkdjfkjkfdjkkdjfkjkfdjkfjdfkjdkfjdkfj</p>
+                        </td>
+                        <td rowspan="2">
+                            <i class="icon ion-ios-trash-outline"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" class="price_p"><i class="ion-social-yen"></i>1236</td>
+                        <td colspan="2">
+                            <div class="conent_div">
+                                <input type="button" class="remove" value="-">
+                                <input type="text" class="num" value="1" readonly>
+                                <input type="button" class="add" value="+">
+                            </div>
+                        </td>
+                    </tr>
+
+                </table>
+            </div>
+
+
+            <div class="item item-icon-right">
+                <table class="cart_table" width="100%">
+                    <tr>
+                        <td rowspan="2" style="vertical-align: middle">
+                            <input type="checkbox">
+                        </td>
+                        <td rowspan="2" style="width:90px ">
+                            <img src="../img/qrCode.png" class="cart_img">
+                        </td>
+                        <td colspan="5">
+                            <p class="price_name">天普乐食Tender
+                                Plus澳洲180</p>
+                        </td>
+                        <td rowspan="2">
+                            <i class="icon ion-ios-trash-outline"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" class="price_p"><i class="ion-social-yen"></i>123456</td>
+                        <td colspan="2">
+                            <div class="conent_div">
+                                <input type="button" class="remove" value="-">
+                                <input type="text" class="num" value="1" readonly>
+                                <input type="button" class="add" value="+">
+                            </div>
+                        </td>
+                    </tr>
+
+                </table>
+            </div>
+        </div>
+    </ion-content>
+    <ion-footer-bar class="bar-calm text-left">
+        <div class="row row-center">
+            <div class="col col-25"><input type="checkbox" style="vertical-align: bottom">全选</div>
+            <div class="col col-50">
+                总金额：<i class="ion-social-yen"></i><span id="price">123456</span>
+            </div>
+
+            <div class="col col-25"><a class="button button-dark" href="#/settlement" style="display: block">
+                去结算
+            </a></div>
+        </div>
+    </ion-footer-bar>
+</ion-view>

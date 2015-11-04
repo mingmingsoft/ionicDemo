@@ -1,0 +1,52 @@
+<ion-view view-title="123456">
+    <ion-nav-buttons side="left">
+        <button ng-click="$ionicGoBack()" class="button button-clear">
+            <i class="icon ion-ios-arrow-back"></i>
+            返回
+        </button>
+    </ion-nav-buttons>
+    <ion-nav-buttons side="right">
+        <button class="button button-clear">
+            <i class="icon ion-share"></i>
+        </button>
+    </ion-nav-buttons>
+    <ion-content>
+        <ion-slide-box class="images" does-continue="true" slide-interval="5">
+            <ion-slide>
+                <div class="box blue"><img src="../../img/qrCode.png"></div>
+            </ion-slide>
+            <ion-slide>
+                <div class="box yellow"><img src="../../img/ssf_logo.png"></div>
+            </ion-slide>
+            <ion-slide>
+                <div class="box pink"><img src="../../img/wxzf_logo.png"></div>
+            </ion-slide>
+        </ion-slide-box>
+        <div class="baokuan_info">
+            <div class="">
+                <ul class="bkif-ul">
+                    <li class="sel">商品详情</li>
+                    <li>规格参数</li>
+                    <li>售后服务</li>
+                </ul>
+            </div>
+        </div>
+        <div class="bkif-container">
+
+        </div>
+    </ion-content>
+    <ion-footer-bar class="row-no-padding">
+        <ul class="bottomNav bar-stable">
+            <li class="bottomNav1">
+                <a href="#/cart" class=" button button-icon"><span class="ion-ios-cart-outline"
+                                                                   style="color: #ffffff; font-size: 30px;"></span><i>2</i>
+                </a>
+            </li>
+            <li class="bottomNav2"><span class="ng-binding">￥350</span></li>
+            </li>
+            <li class="bottomNav3 "><i></i>
+                <a>加入购物车</a>
+            </li>
+        </ul>
+    </ion-footer-bar>
+</ion-view>

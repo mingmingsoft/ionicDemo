@@ -1,0 +1,93 @@
+<ion-view view-title="发票信息">
+    <ion-nav-buttons side="left">
+        <button ng-click="$ionicGoBack()" class="button button-clear">
+            <i class="icon ion-ios-arrow-back"></i>
+            返回
+        </button>
+    </ion-nav-buttons>
+    <ion-content>
+        <div class="list">
+            <div class="item radio_wrap">
+                <p>发票类型</p>
+                <ul>
+                    <li class="chk checked">
+                        <input type="radio" id="radio_a_01" name="radio_a"/>
+                        <label for="radio_a_01">不需要发票</label>
+                        <i></i>
+                    </li>
+                    <li class="chk checked">
+                        <input type="radio" id="radio_a_02" name="radio_a"/>
+                        <label for="radio_a_02">普通发票</label>
+                        <i></i>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="item radio_wrap">
+                <p>发票抬头</p>
+                <ul>
+                    <li class="chk">
+                        <input type="radio" id="radio_a_03" name="radio_a"/>
+                        <label for="radio_a_01">个人发票</label>
+                        <i></i>
+                    </li>
+                    <li class="chk checked">
+                        <input type="radio" id="radio_a_04" name="radio_a"/>
+                        <label for="radio_a_02">公司发票</label>
+                        <i></i>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="item radio_wrap">
+                <p>发票内容</p>
+
+                <div class="row row-center row-no-padding radio_wrap">
+                    <div class="col col-33 chk">
+                        <input type="radio" id="radio_a_05" name="radio_a"/>
+                        <label for="radio_a_01">礼品</label>
+                        <i></i>
+                    </div>
+                    <div class="col col-33 chk checked">
+                        <input type="radio" id="radio_a_06" name="radio_a"/>
+                        <label for="radio_a_01">日用品</label>
+                        <i></i>
+                    </div>
+                    <div class="col col-33 chk">
+                        <input type="radio" id="radio_a_07" name="radio_a"/>
+                        <label for="radio_a_01">厨具</label>
+                        <i></i>
+                    </div>
+                </div>
+                <p></p>
+
+                <p></p>
+
+                <div class="row row-center row-no-padding radio_wrap">
+                    <div class="col col-33 chk">
+                        <input type="radio" id="radio_a_08" name="radio_a"/>
+                        <label for="radio_a_01">食品</label>
+                        <i></i>
+                    </div>
+                    <div class="col col-33 chk">
+                        <input type="radio" id="radio_a_09" name="radio_a"/>
+                        <label for="radio_a_01">酒水</label>
+                        <i></i>
+                    </div>
+                    <div class="col col-33 chk checked">
+                        <input type="radio" id="radio_a_10" name="radio_a"/>
+                        <label for="radio_a_01">饮料</label>
+                        <i></i>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                提示信息
+                <p class="whitespacenormal">优选配送的商品发票随商品一同配送，产地直供商品发票会在您签收订单后补寄给你，部分商家开具的发票内容江岸实际情况开具</p>
+            </div>
+            <div class="item">
+                <button class="button button-block button-small button-dark">确定</button>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

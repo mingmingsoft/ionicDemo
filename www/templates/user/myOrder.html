@@ -1,0 +1,101 @@
+<ion-view view-title="我的订单">
+    <ion-nav-buttons side="left">
+        <button ng-click="$ionicGoBack()" class="button button-clear">
+            <i class="icon ion-ios-arrow-back"></i>
+            返回
+        </button>
+    </ion-nav-buttons>
+    <ion-content>
+        <div class="button-bar">
+            <a class="button button-positive">今天</a>
+            <a class="button">本月</a>
+        </div>
+        <!--订单开始-->
+        <div class="card order_div">
+            <div class="row row-center">
+                <div class="col col-75 text-left">订单号：<span class="order_no" name="order_no">820150240039529</span>
+                </div>
+                <div class="col-25 text-right"><span class="order_state" name="order_state">已取消</span></div>
+            </div>
+            <div class="row row-center">
+                <div class="col col-25 text-center "><img src="../../img/qrCode.png" class="cart_img"></div>
+                <div class="col col-75 text-left">
+                    <p class="price_name">
+                        大洋世家ckajgkjakgjkd清洁阿根廷鱿鱼大洋世家ckajgkjakgjkd清洁阿根廷鱿鱼大洋世家ckajgkjakgjkd清洁阿根廷鱿鱼大洋世家ckajgkjakgjkd清洁阿根廷鱿鱼</p>
+
+                    <p class="text-right">
+                        数量：<span class="price_count" name="price_count">2</span>件
+                    </p>
+
+                    <p class="text-right" style="margin: 0">
+                        伙伴价：<i class="ion-social-yen"></i><span class="price_price">33.8</span>
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-right">
+                    合计：<i class="ion-social-yen"></i>77.6
+                </div>
+            </div>
+            <div class="row row-center">
+                <div class="col col-10 text-center"><span style="font-size: 35px"
+                                                          class="icon ion-ios-location-outline"></span></div>
+                <div class="col col-90 text-left user_info">
+                    <p class="user_name" name="user_name">sftestuser</p>
+
+                    <p class="user_address" name="user_address">广东省深圳市南山区学府路软件产业基地1栋B座12楼</p>
+                </div>
+            </div>
+        </div>
+        <!--结束-->
+
+
+        <!--订单开始-->
+        <div class="card order_div">
+            <div class="row row-center">
+                <div class="col col-75 text-left">订单号：<span class="order_no" name="order_no">820150240039529</span>
+                </div>
+                <div class="col-25 text-right"><span class="order_state" name="order_state">已取消</span></div>
+            </div>
+            <div class="row row-center">
+                <div class="col col-25 text-center "><img src="../../img/qrCode.png" class="cart_img"></div>
+                <div class="col col-75 text-left">
+                    <p class="price_name">
+                        大洋世家ckajgkjakgjkd清洁阿根廷鱿鱼大洋世家ckajgkjakgjkd清洁阿根廷鱿鱼大洋世家ckajgkjakgjkd清洁阿根廷鱿鱼大洋世家ckajgkjakgjkd清洁阿根廷鱿鱼</p>
+
+                    <p class="text-right">
+                        数量：<span class="price_count" name="price_count">2</span>件
+                    </p>
+
+                    <p class="text-right" style="margin: 0">
+                        伙伴价：<i class="ion-social-yen"></i><span class="price_price">33.8</span>
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-right">
+                    合计：<i class="ion-social-yen"></i>77.6
+                </div>
+            </div>
+            <div class="row row-center">
+                <div class="col col-10 text-center"><span style="font-size: 35px"
+                                                          class="icon ion-ios-location-outline"></span></div>
+                <div class="col col-90 text-left user_info">
+                    <p class="user_name" id="user_name">sftestuser</p>
+
+                    <p class="user_address" id="user_address">广东省深圳市南山区学府路软件产业基地1栋B座12楼</p>
+                </div>
+            </div>
+            <div class="row row-center">
+                <div class="col col-25 col-offset-25 text-right">
+                    <button class="button button-block button-small">取消订单</button>
+                </div>
+                <div class="col col-25 text-left">
+                    <button class="button button-block button-dark button-small">付款</button>
+                </div>
+            </div>
+        </div>
+
+        <!--结束-->
+    </ion-content>
+</ion-view>

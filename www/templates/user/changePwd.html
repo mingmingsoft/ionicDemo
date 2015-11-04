@@ -1,0 +1,44 @@
+<ion-view view-title="修改密码">
+    <ion-nav-buttons side="left">
+        <button ng-click="$ionicGoBack()" class="button button-clear">
+            <i class="icon ion-ios-arrow-back"></i>
+            返回
+        </button>
+    </ion-nav-buttons>
+    <ion-content>
+        <form ng-submit="update(name, username)">
+            <div class="list list-inset card">
+                <label class="item item-input" style="margin-top:1px;">
+                    <input type="password"
+                           placeholder="原密码"
+                           autocorrect="off"
+                           autocapitalize="off"
+                           ng-class="{'submission-opacity':submitted}"
+                           required>
+                </label>
+                <label class="item item-input" style="margin-top:1px;">
+                    <input type="password"
+                           placeholder="新密码"
+                           autocorrect="off"
+                           autocapitalize="off"
+                           ng-class="{'submission-opacity':submitted}"
+                           required>
+                </label>
+                <label class="item item-input" style="margin-top:1px;">
+                    <input type="password"
+                           placeholder="重复新密码"
+                           autocorrect="off"
+                           autocapitalize="off"
+                           ng-class="{'submission-opacity':submitted}"
+                           required>
+                </label>
+                <label class="item" style="margin-top:1px;">
+                    <button class="button button-assertive  button-block">
+                        修改密码
+                    </button>
+                </label>
+
+            </div>
+        </form>
+    </ion-content>
+</ion-view>

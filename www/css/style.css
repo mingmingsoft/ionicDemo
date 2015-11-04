@@ -1,0 +1,335 @@
+/* Empty. Add your own CSS if you like */
+.whitespacenormal {
+    word-break: break-all !important;
+    white-space: normal !important;
+}
+
+.maidian {
+    font-size: 10pt;
+}
+
+.productname {
+    font-size: 11pt;
+}
+
+.product_tab li {
+    border: 1px solid #FA6400;
+    padding: 2px 5px;
+    color: #FA6400;
+}
+
+.product_tab li.sel,.sale_btn {
+    background-color: #FA6400;
+    color: #ffffff;
+}
+
+.sale_btn {
+    float: right;
+    border: 1px solid #FA6400;
+    padding: 5px;
+}
+
+.item .price_p {
+    color: red;
+    min-width: 70px;
+}
+
+.list .item img {
+    width: 100%;
+}
+
+.assertive p {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    bottom: 4px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.foot_left {
+    float: left;
+}
+
+.foot_center {
+    float: left;
+}
+
+.foot_right {
+    float: right;
+    width: 100px;
+}
+
+.cart_img {
+    width: 85px !important;
+    height: 85px;
+    border: 1px solid #CCC;
+    position: relative;
+}
+
+.cart_img p {
+    bottom: 0 !important;
+    padding: 6px 0;
+}
+
+.cart_table td {
+    vertical-align: middle;
+    width: auto;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.cart_table p {
+    white-space: normal;
+    word-break: break-all;
+    font-weight: bold;
+    font-size: 12pt;
+}
+
+input[type=checkbox] {
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.num {
+    width: 40px;
+    height: 27px !important;
+    border: solid #CCC !important;
+    text-align: center;
+    float: left;
+    border-width: 1px 0px 1px 0px !important;
+}
+
+.add, .remove {
+    width: 29px;
+    height: 27px;
+    float: left;
+    border: 1px solid #CCC;
+    background: #EEE;
+    cursor: pointer;
+    text-align: center;
+}
+
+.add {
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.remove {
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.conent_div input {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.price_name {
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.Commission_div {
+    height: 150px;
+    background-color: red;
+    color: #FFFFFF;
+}
+
+.market_div p {
+    color: #FFFFFF;
+}
+
+.market_div {
+    height: 150px;
+    background-color: #c0c0c0;
+    color: #FFFFFF;
+}
+
+.medkit_p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+.order_div .row {
+    border-bottom: 1px solid #cccccc;
+    margin-top: 0 !important;
+}
+
+.user_info p {
+    margin: 0;
+}
+
+.radio_wrap input {
+    display: none;
+}
+
+.radio_wrap .chk {
+    position: relative;
+    border: 1px solid #CCC;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    margin: 0 2px;
+    height: 33px;
+    line-height: 27px;
+    width: 33.33%;
+    text-align: center;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+.radio_wrap .checked {
+    border: 2px solid #000;
+    margin: -1px 1px;
+
+}
+
+.radio_wrap .checked i {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    right: -1px;
+    bottom: -1px;
+    background: url(../img/checked.png) no-repeat;
+    background-size: cover;
+}
+
+.images img {
+    width: 100%;
+}
+
+.bkif-ul {
+    display: table;
+    width: 100%;
+    line-height: 40px;
+    text-align: center;
+    color: #4e4e4e;
+    font-size: 14px;
+    font-weight: 700;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#f8f8fa), to(#ecedf0));
+}
+
+.bkif-ul li {
+    display: table-cell;
+    border-left: 0;
+    cursor: pointer;
+}
+
+.bkif-ul li.sel {
+    background: #6F7689;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#888E9D), to(#6F7689));
+    color: #FFF;
+    border-color: #6E7990;
+}
+
+.bkif-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.bottomNav {
+    bottom: 0;
+    width: 100%;
+    background: #E3434F;
+}
+
+.bottomNav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #e3434f;
+}
+
+.bottomNav li {
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.bottomNav1 {
+    width: 22%;
+    background: #3e3e3e
+}
+
+.bottomNav2 {
+    width: 37%;
+    background: #2b2b2b;
+}
+
+.bottomNav3 {
+    width: 41%;
+    background: #e3434f;
+    position: relative;
+}
+
+.bottomNav1 .glyphicon-shopping-cart {
+    font-size: 30px;
+    vertical-align: middle;
+    color: #fff;
+}
+
+.bottomNav1 a {
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: 8px auto;
+}
+
+.bottomNav1 i {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    line-height: 0px;
+    color: #FFF;
+    top: 2px;
+    border-radius: 50%;
+    font-style: normal;
+    z-index: 2;
+}
+
+.bottomNav1 i:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: -7px;
+    left: 0;
+    background: #E3434F;
+    border-radius: 100%;
+    z-index: -1;
+}
+
+.bottomNav2 span {
+    font-size: 14pt;
+    color: #fff;
+}
+
+.bottomNav3 a {
+    display: block;
+    font-size: 14pt;
+    color: #fff;
+}
+
+.bottomNav3 i {
+    position: absolute;
+    left: -19px;
+    top: 18px;
+    display: block;
+    border-right: 10px solid #e3434f;
+    border-left: 10px solid transparent;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+}
+

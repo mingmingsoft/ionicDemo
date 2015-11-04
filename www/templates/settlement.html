@@ -1,0 +1,51 @@
+<ion-view view-title="结算">
+    <ion-nav-buttons side="left">
+        <button ng-click="$ionicGoBack()" class="button button-clear">
+            <i class="icon ion-ios-arrow-back"></i>
+            返回
+        </button>
+    </ion-nav-buttons>
+    <ion-content>
+        <div class="row row-center bar-stable stable-border">
+            <div class="col col-10 text-center"><span style="font-size: 35px"
+                                                      class="icon ion-person"></span></div>
+            <div class="col col-90 text-left user_info">
+                <p class="user_name" id="user_name">sftestuser</p>
+
+                <p class="user_tle" id="user_tle">188888888888</p>
+
+                <p class="user_address" id="user_address">广东省深圳市南山区学府路软件产业基地1栋B座12楼</p>
+            </div>
+        </div>
+        <ion-list>
+
+            <ion-item class="item-thumbnail-left item" ng-repeat="chat in chats" type="item-text-wrap">
+                <img ng-src="{{chat.face}}">
+
+                <p>{{chat.name}}</p>
+
+                <div class="row row-center" style="padding: 0">
+                    <div class="col-50 text-left"><p>单价：<i class="ion-social-yen"></i>23.8</p></div>
+                    <div class="col-50 text-right"><p>数量：1件</p></div>
+                </div>
+
+                <p>总价：<i class="ion-social-yen"></i>23.8</p>
+            </ion-item>
+            <div class="row row-center" style="border-bottom: 1px solid #cccccc">
+                <div class="col-50 text-left">发票信息：不需要发票。</div>
+                <div class="col-50 text-right"><a class="button button-icon" href="#/settlement/invoice">修改&nbsp;<i class="icon ion-compose" style="font-size: 27px;"></i></a></div>
+            </div>
+
+        </ion-list>
+    </ion-content>
+    <ion-footer-bar class="bar-stable text-left">
+        <div class="row row-center text-center">
+            <div class="col col-75">
+                总金额：<i class="ion-social-yen"></i><span id="price">123456</span><span class="freight">（不含运费）</span>
+            </div>
+
+            <div class="col col-25"><a class="button button-dark" href="#/order/pay" style="display: block">
+                去结算
+            </a></div>
+        </div>
+</ion-view>
